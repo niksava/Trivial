@@ -23,8 +23,6 @@ public class GameForm extends JFrame {
     private JButton btnEnviarResposta;
     private ButtonGroup opcionsGroup;
 
-
-
     // Llista de preguntes i índex de la pregunta actual
     private ArrayList<Pregunta> preguntes;
     private int indexPreguntaActual = 0;
@@ -154,34 +152,7 @@ public class GameForm extends JFrame {
         dispose();
     }
 
-    public static void main(String[] args) {
-        // Exemple per provar GameForm directament
-        ArrayList<Pregunta> preguntes = new ArrayList<>();
-        preguntes.add(new Pregunta("Qui va guanyar el mundial de futbol masculí de Sudàfrica 2010?",
-                new String[]{"França", "Brasil", "Espanya", "Alemània"}, "Espanya"));
-        preguntes.add(new Pregunta("Quin és el planeta més gran del Sistema Solar?",
-                new String[]{"Mercuri", "Venus", "Terra", "Júpiter"}, "Júpiter"));
-        preguntes.add(new Pregunta("Quin riu és el més llarg del món?",
-                new String[]{"Amazonas", "Nil", "Mississippi", "Yangtze"}, "Nil"));
-        preguntes.add(new Pregunta("Qui va escriure 'Don Quixot'?",
-                new String[]{"Lope de Vega", "Miguel de Cervantes", "Garcilaso de la Vega", "Federico García Lorca"}, "Miguel de Cervantes"));
-        preguntes.add(new Pregunta("Quina és la capital de França?",
-                new String[]{"Madrid", "Londres", "París", "Berlín"}, "París"));
-        preguntes.add(new Pregunta("Quin element químic té el símbol 'O'?",
-                new String[]{"Or", "Oxigen", "Osmio", "Plom"}, "Oxigen"));
-        preguntes.add(new Pregunta("En quin any va arribar l'home a la Lluna per primera vegada?",
-                new String[]{"1965", "1969", "1972", "1959"}, "1969"));
-        preguntes.add(new Pregunta("Quin és l'ocell més gran del món?",
-                new String[]{"Àguila", "Estru", "Cisne", "Pingüí"}, "Estru"));
-        preguntes.add(new Pregunta("Quin país té forma de bota?",
-                new String[]{"França", "Alemanya", "Itàlia", "Espanya"}, "Itàlia"));
-        preguntes.add(new Pregunta("Quants colors té un semàfor?",
-                new String[]{"2", "3", "4", "5"}, "3"));
-
-        ArrayList<String> jugadors = new ArrayList<>();
-        jugadors.add("Alice");
-        jugadors.add("Bob");
-
-        SwingUtilities.invokeLater(() -> new GameForm(preguntes, jugadors).setVisible(true));
+    public Map<String, Integer> getPunts() {
+        return punts;
     }
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "Quin és el riu més llarg del món?",
+    "respostes": ["Nil", "Amazones", "Mississippi", "Danubi"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Qui va pintar la Mona Lisa?",
+    "respostes": ["Van Gogh", "Picasso", "Da Vinci", "Rembrandt"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Quin és l'element químic amb símbol 'O'?",
+    "respostes": ["Oro", "Oxigen", "Osmio", "Òxid"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Quants continents hi ha a la Terra?",
+    "respostes": ["5", "6", "7", "8"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Quin és l'any en què Cristòfor Colom va arribar a Amèrica?",
+    "respostes": ["1492", "1500", "1512", "1456"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Quin animal és conegut per la seva memòria excepcional?",
+    "respostes": ["Dofí", "Elefant", "Gos", "Gat"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Quin planeta és conegut com el Planeta Vermell?",
+    "respostes": ["Júpiter", "Mart", "Venus", "Saturn"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Quin és el país amb més habitants del món?",
+    "respostes": ["Índia", "Estats Units", "Rússia", "Xina"],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Quin és el llenguatge de programació més utilitzat el 2024?",
+    "respostes": ["Java", "Python", "C++", "JavaScript"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Quina és la capital de Canadà?",
+    "respostes": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+    "correcta": 3
+  }
+]
