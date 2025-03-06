@@ -28,6 +28,11 @@ public class MainForm extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
 
+        setSize(500, 500);
+        setResizable(false);
+        setLocationRelativeTo(null);
+        setVisible(true);
+
         modelUsuaris = new DefaultListModel<>();
         tblUsuaris.setModel(modelUsuaris);
         usuaris = carregarUsuarisDesDeDAT("usuaris.dat");
@@ -120,7 +125,6 @@ public class MainForm extends JFrame {
             if (punts.containsKey(u.getNom())) {
                 u.incrementarPuntuacio(punts.get(u.getNom()));
                 u.incrementarPartidesJugades();
-                // Aquí podries afegir lògica per determinar guanyador i incrementar partidesGuanyades
             }
         }
         guardarUsuarisEnDAT("usuaris.dat");

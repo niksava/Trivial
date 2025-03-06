@@ -54,6 +54,10 @@ public class GameForm extends JFrame {
         pack();
         setLocationRelativeTo(null); // Centra la finestra
 
+        setSize(500, 300);
+        setResizable(false);
+        setLocationRelativeTo(null);
+
         // Configurem el ButtonGroup perquè només es pugui seleccionar una opció
         opcionsGroup = new ButtonGroup();
         opcionsGroup.add(rbtnOpcio1);
